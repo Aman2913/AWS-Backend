@@ -85,7 +85,8 @@ const app = express();
     .then(() => console.log("MongoDB connected!"))
     .catch((err) => console.error("Unable to connect : ", err));
 
-  app.use(cors({ origin: "*" }));
+  app.use(cors({ origin: "https://main.d1pymvug46oz8v.amplifyapp.com",
+    credentials: true, }));
 
   app.use("/", mainRouter);
 
