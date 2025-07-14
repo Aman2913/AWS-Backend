@@ -53,10 +53,12 @@ backend/
 
 
 # ▶️ How to Run
+```bash
 git clone https://github.com/Aman2913/AWS-Backend.git
 cd AWS-Backend
 npm install
 node index.js start
+```
 
 # ⚙️ Sample API Endpoints
 | Method  | Endpoint                  | Description            |
